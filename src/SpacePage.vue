@@ -32,7 +32,7 @@
 </template>
 
 <script>
-import MuseumHighlight from "./MuseumHighlight";
+import MuseumHighlight from "./components/MuseumHighlight";
 
 export default {
   name: "SpacePage",

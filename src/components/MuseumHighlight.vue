@@ -26,8 +26,6 @@
 <script>
 export default {
   name: "MuseumHighlight",
-  components: {},
-  mixins: [],
   props: {
     title: String,
     description: String,
@@ -39,16 +37,9 @@ export default {
   },
   data() {
     return {
-      showMore: false,
     };
   },
-  // computed: {
-  //   newsDate() {
-  //     // Highlight's news item date
-  //   },
-  // },
-  methods: {},
-  created() {},
+
 };
 </script>
 
@@ -61,9 +52,7 @@ export default {
     width: auto;
     height: 300px;
     border-radius: 4px;
-    box-shadow: 3px 3px 3px rgb(0 0 0 / 5%), 3px 3px 3px rgb(0 0 0 / 8%);
-    // box-shadow: 3px 3px 6px rgb(0 0 0 / 5%), 1px 1px 20px rgb(0 0 0 / 16%);
-    // box-shadow: 3px 3px 6px rgb(0 0 0 / 5%), 1px 1px 20px rgb(0 0 0 / 16%);
+    box-shadow: 3px 3px 6px rgb(0 0 0 / 5%), 1px 1px 20px rgb(0 0 0 / 16%);
     position: relative;
     &__badge {
       position: absolute;
